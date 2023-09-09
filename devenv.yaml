@@ -1,0 +1,4 @@
+inputs:
+  # Nixpkgs 23.05 - 2023.09.07
+  nixpkgs:
+    url: github:NixOS/nixpkgs/4f77ea639305f1de0a14d9d41eef83313360638c
