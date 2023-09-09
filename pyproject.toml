@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "devenv-python"
+version = "2023.9.9"
+description = "Python project template using devenv."
+authors = ["myrheimb@gmail.com"]
+homepage = "https://github.com/myrheimb"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+black = "^23.9.0"
+mypy = "^1.5.1"
+pdbpp = "^0.10.3"
+pytest = "^7.4.2"
+
+[build-system]
+requires = ["poetry"]
+build-backend = "poetry.masonry.api"
